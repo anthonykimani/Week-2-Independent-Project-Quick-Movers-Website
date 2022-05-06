@@ -6,6 +6,8 @@
     overflow:hidden;
 }
 
+/*--home section--*/
+
 .home-container{
     background-image:url('/Assets/images/moving\ 1.png');
     height:100vh;
@@ -71,13 +73,58 @@
     font-weight:400;
 }
 
+/*--ABOUT SECTION--*/
+
+.about-container{
+    display:flex;
+    justify-content:space-between;
+    margin:50px 0px;
+}
 
 
+.about-image img{
+    width:600;
+}
 
+.about-text-container{
+    display:flex;
+    justify-content:start;
+    align-items: center;
+    width:600px;
+}
+.about-text{
+    height:300px;
+    width:400px;
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    overflow:hidden;
+}
 
+.about-text > h1{
+    font-size:48px;
+    font-weight:400;
+}
 
+.about-text > h3{
+    color:rgb(110, 110, 110);
+    font-family:'Poppins', sans-serif;
+    font-weight:400;
+    max-width:400px;
+    align-items:flex-start;
+}
 
-
+.learnmore-button{
+    padding:20px 10px;
+    width:150px;
+    border-radius:12px;
+    border:none;
+    background-color:black;
+    color:yellow;
+    position:relative;
+    top:7px;
+    right:10px;
+}
 
 
 
