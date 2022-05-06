@@ -126,17 +126,51 @@
     right:10px;
 }
 
+/*---Movers Section----*/
 
+.mover-container{
+    
+}
 
+.mover-container h1{
+    font-size:48px;
+    font-weight:400;
+    position:relative;
+    right:-280px;
+    margin-bottom:100px;
+}
 
+.movers{
+    display:grid;
+    grid-template-columns:300px 300px 300px;
+    justify-content: center;
+    row-gap:20px;
+}
+.mover-card{
+    display:grid;
 
+}
 
+.mover-card img{
+    width:250px;
+}
 
+.mover-card h4{
+    padding:20px 0px;
 
+}
 
-
-
-
+.mover-icon{
+    width:250px;
+    display:flex;
+}
+.mover-icon i{
+    border:1px solid gray;
+    border-bottom:none;
+    width:100px;
+    justify-content: flex-end;
+    height:30px;  
+}
 
 
 
