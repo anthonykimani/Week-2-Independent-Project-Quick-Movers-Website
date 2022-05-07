@@ -217,6 +217,116 @@
     line-height:1.5;
 }
 
+/*--------Start of Movers html file--------*/
+.navigation-bar{
+    background-color:rgb(52, 42, 16);
+    height:250px;
+}
+
+hr{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+nav ul{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100px;
+}
+
+nav ul li{
+    padding:0px 20px;
+    list-style:none;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+}
+.work-container{
+    overflow:hidden;
+    width:auto;
+}
+.work-button{
+    padding:20px 20px;
+    width:150px;
+    font-weight:600;
+    border-radius:12px;
+    border:none;
+    background-color:rgb(234, 165, 4);
+    color:rgb(0, 0, 0);
+    position:relative;
+    top:7px;
+    right:10px;
+}
+
+.work-button > i{
+    color:white;
+}
+
+.navigation-text{
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    color:white;
+    font-family:'Actor' , sans-serif;
+}
+
+.navigation-text-left >h2{
+    font-size:32px;
+    font-weight:100;
+    padding:20px 0px;
+}
+
+.navigation-text-left > h4{
+    padding:10px 0px;
+}
+
+.navigation-text-right >h3{
+    font-size:32px;
+    font-weight:100;
+    padding:10px 0px;
+}
+
+.navigation-text-right > h4{
+    padding:10px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
