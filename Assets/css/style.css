@@ -617,13 +617,57 @@ form{
     background-color:white;
 }
 
+/*-----FOOTER SECTION----*/
 
+.footer-section{
+    background-color:black;
+    color:white;
+    height:300px;
+    margin-top:50px;
+}
 
+.footer-section-container{
+    display:flex;
+    justify-content: space-between;
+}
 
+.footer-section-container > h3{
+    font-size: 32px;
+    font-weight:400;
+    padding:50px;
+    position: relative;
+    right:-140px;
+}
 
+.footer-section-container > h3 > span{
+    color:yellow;
+}
 
+.work-section{
+    overflow:hidden;
+    height:55px;
+    width:auto;
+    position:relative;
+    left:-200px;
+    bottom:-50px;
 
+}
+.work-button-2{
+    padding:20px 20px;
+    width:150px;
+    font-weight:600;
+    border-radius:12px;
+    border:none;
+    background-color:rgb(234, 165, 4);
+    color:rgb(0, 0, 0);
+    position:relative;
+    top:7px;
+    right:10px;
+}
 
+.work-button-2 > i{
+    color:white;
+}
 
 
 
