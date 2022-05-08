@@ -904,9 +904,33 @@ form{
     color:white;
 }
 
+@media(max-width:768px){
+    .home-contact-card{
+        display:none;
+    }
+
+    .listers{
+        display:grid;
+        grid-template-columns: 200px 200px;
+    }
 
 
+    .list-card > h4{
+        width:270px;
+    }
+    .list{
+        width:300px;
+    }
+}
 
+@media(max-width:425px){
+    .navigation-text-left{
+        font-size:18px;
+    }
+    .navigation-text-right{
+        font-size:14px;
+    }
+}
 
 
 
