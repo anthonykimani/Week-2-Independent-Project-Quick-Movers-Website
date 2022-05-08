@@ -37,21 +37,35 @@ body{
 .home-container > nav > ul > li > a{
     text-decoration:none;
     color:white;
+    transition:.3s ease-in-out;
+}
+
+.home-container > nav > ul > li > a:hover{
+    border-bottom:1px solid white;
 }
 
 .login-button-1{
-    padding:5px 10px;
+    padding:10px 20px;
     background-color:rgb(237, 237, 68);
     border:none;
     margin-right:10px;
 }
 
+.login-button-1:hover{
+    background-color:rgb(234, 165, 4);
+}
+
 .login-button-2{
-    padding:5px 10px;
+    padding:10px 20px;
     background-color:rgb(0, 0, 0);
     color:white;
     border:none;
 }
+
+.login-button-2:hover{
+    background-color:rgb(130, 130, 130);
+}
+
 
 .home-text{
     margin:5px 5px 5px 5px;
@@ -97,6 +111,12 @@ body{
     align-items: center;
     width:600px;
 }
+
+.liner{
+    background-image:linear-gradient(to right,rgb(255, 187, 0),black);
+    height:3px;
+    width:120px;
+}
 .about-text{
     height:300px;
     width:400px;
@@ -131,12 +151,14 @@ body{
     right:10px;
 }
 
+.learnmore-button:hover{
+    background-color: rgb(41, 41, 41);
+}
 /*---Movers Section----*/
 
 .mover-container{
-    
+    margin-bottom:100px;
 }
-
 .mover-container h1{
     font-size:48px;
     font-weight:400;
@@ -145,43 +167,67 @@ body{
     margin-bottom:100px;
 }
 
+.mover-line{
+    background-image:linear-gradient(to right,rgb(255, 187, 0),black);
+    position:relative;
+    border-radius:8px;
+    right:-200px;
+    height:3px;
+    width:120px;
+}
+
 .movers{
     display:grid;
     grid-template-columns:300px 300px 300px;
     justify-content: center;
     row-gap:20px;
 }
-.mover-card{
-    display:grid;
-    padding:10px;
-}
-
-.mover-card img{
+.movers-card{
+    border-radius:12px;
+    overflow: hidden;
+    height:295px;
     width:250px;
 }
-
-.mover-card h4{
-    padding:20px 0px;
-
+.movers-card > img{
+    width:250px;
+    height:200px;
 }
 
-.mover-icon{
-    width:250px;
+.movers-card > h4{
+    height:50px;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    width:220px;
+    padding-left:30px;
+    font-size:18px;
+    font-family:'Actor';
+    font-weight:200;
+}
+
+.mover{
     display:flex;
 }
-.mover-icon i{
-    border:1px solid gray;
-    border-bottom:none;
-    width:100px;
-    justify-content: flex-end;
-    height:30px;  
+
+.mover-button{
+    height:50px;
+    width: 120px;
+    border:.5px solid rgb(228, 228, 228);
+    background-color:white;
+}
+
+.mover-button:hover{
+    background-color:rgb(231, 231, 231);
 }
 
 /*-----FOOTER----*/
 
 .footer-container{
-    background-color:black;
+    background: rgb(242,166,0);
+    background: radial-gradient(circle, rgba(242,166,0,1) 0%, rgba(85,69,34,1) 0%, rgba(119,90,27,1) 0%, rgba(43,43,43,1) 38%);
     color:white;
+    background-position:400px 600px;
+    background-size:2000px 1400px;
     height:300px;
     
 }
@@ -222,6 +268,9 @@ body{
     line-height:1.5;
 }
 
+.column-links > a:hover{
+    color:white;
+}
 /*--------Start of Movers html file--------*/
 .navigation-bar{
     background-color:rgb(52, 42, 16);
