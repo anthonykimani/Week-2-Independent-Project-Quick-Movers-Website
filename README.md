@@ -39,7 +39,7 @@ A Two page website for a Moving company .
 ## Known Bugs
 
 * Responsiveness breaks on small-screen devices.
-* 
+* Background-Image URL breaks on Github Pages.
 ## Authors Info
 
 Gmail - [Anthony Kimani](anthony.kimani@student.moringaschool.com)
