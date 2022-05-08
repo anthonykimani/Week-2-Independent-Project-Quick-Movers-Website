@@ -555,19 +555,67 @@ form{
 }
 
 
+/*-------LISTING SECTION-------*/
+
+.listing-container{
+    margin-top:100px;
+    overflow: hidden;
+}
+
+.listing-container >h1{
+    padding-left:50px;
+    display:grid;
+    align-content: center;
+    font-size:28px;
+    font-weight:200;
+    font-family:'Actor';
+    height:100px;
+}
+
+.line{
+    background-image:linear-gradient(to right,rgb(255, 187, 0),black);
+    height:3px;
+    width:120px;
+    position:relative;
+    right:-50px;
+
+}
+
+.listers{
+    display:flex;
+    justify-content: space-around;
+}
 
 
+.list-card{
+    border-radius:10px;
+}
+.list-card > img{
+    width:305px;
+    height:250px;
+}
 
+.list-card > h4{
+    height:50px;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    padding-left:30px;
+    font-size:18px;
+    font-family:'Actor';
+    font-weight:200;
+}
 
+.list{
+    display:flex;
+}
 
-
-
-
-
-
-
-
-
+.list-button{
+    width:102px;
+    height:50px;
+    border:.5px solid rgb(228, 228, 228);
+    background-color:white;
+}
 
 
 
