@@ -27,7 +27,7 @@ A Two page website for a Moving company .
  
 ### Live Link
 
-- Click this link to view the live application https://anthonykimani.github.io/Week-1-Independent-Project/
+- Click this link to view the live application https://anthonykimani.github.io/Week-2-Independent-Project-Quick-Movers-Website/
 - 
 ### Technology  Used
 
