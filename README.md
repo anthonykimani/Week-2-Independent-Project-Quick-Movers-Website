@@ -41,7 +41,7 @@ A Two page website for a Moving company .
 * Responsiveness breaks on small-screen devices.
 * Background-Image URL breaks on Github Pages.
 
-##MIT License
+## MIT License
 
 Copyright (c) [2022] [Anthony Kimani]
 
